@@ -26,6 +26,8 @@ public class Category {
     private String name;
     @Column(name = "status")
     private String status;
+    @Column(name = "thumbnail")
+    private String thumbnail;
     @CreationTimestamp
     private Date createdAt;
     @UpdateTimestamp

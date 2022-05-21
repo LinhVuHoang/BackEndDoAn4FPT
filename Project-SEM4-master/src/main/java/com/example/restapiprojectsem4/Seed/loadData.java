@@ -1000,24 +1000,28 @@ public class loadData implements CommandLineRunner {
             Category category = new Category();
             category.setId(1);
             category.setName("Mùa Xuân");
+            category.setThumbnail("https://res.cloudinary.com/sem4-fruitapp/image/upload/v1653054064/Categories/wallpaper_springjpg_dtoe0v.jpg");
             category.setStatus("ACTIVE");
             list.add(category);
 
             Category category1 = new Category();
             category1.setId(2);
             category1.setName("Mùa Hè");
+            category1.setThumbnail("https://res.cloudinary.com/sem4-fruitapp/image/upload/v1653054064/Categories/wallpaper_summer_umt3ac.jpg");
             category1.setStatus("ACTIVE");
             list.add(category1);
 
             Category category2 = new Category();
             category2.setId(3);
             category2.setName("Mùa Thu");
+            category2.setThumbnail("https://res.cloudinary.com/sem4-fruitapp/image/upload/v1653054064/Categories/wallpaper_fall1_espvci.jpg");
             category2.setStatus("ACTIVE");
             list.add(category2);
 
             Category category3 = new Category();
             category3.setId(4);
             category3.setName("Mùa Đông");
+            category3.setThumbnail("https://res.cloudinary.com/sem4-fruitapp/image/upload/v1653054064/Categories/wallpaper_winter_bcalyz.jpg");
             category3.setStatus("ACTIVE");
             list.add(category3);
 
